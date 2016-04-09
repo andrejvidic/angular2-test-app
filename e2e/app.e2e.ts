@@ -7,6 +7,7 @@ describe('weather App', function() {
     page = new WeatherPage();
   })
 
+
   it('should display message saying app works', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('weather Works!');

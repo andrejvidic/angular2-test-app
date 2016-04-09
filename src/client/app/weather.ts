@@ -19,4 +19,9 @@ export class WeatherApp {
   meaningOfLife(meaning?: number) {
     return `The meaning of life is ${meaning || this.defaultMeaning}`;
   }
+
+  getTemperature() {
+        alert('getting temp!')
+  }
+
 }
